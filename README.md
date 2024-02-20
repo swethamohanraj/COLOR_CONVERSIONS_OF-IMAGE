@@ -51,6 +51,7 @@ cv2.imshow('Swetha',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipimage](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/0a834a8c-71c5-497f-84f9-8a211f576293)
 
 
 ### ii)Write the image
@@ -60,6 +61,8 @@ import cv2
 image=cv2.imread('dipimage.jpg',0)
 cv2.imwrite('Swetha.jpg',image)
 ```
+![dipexp1-opcode1](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/715f497f-6ea1-4066-b0bf-4a3af49d59b1)
+
 
 
 ### iii)Shape of the Image
@@ -68,6 +71,7 @@ import cv2
 image=cv2.imread('dipimage.jpg',1)
 print(image.shape)
 ```
+![dipexp1-opcode2](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/73f3a6ec-e23f-40a6-a93c-621e36bfe60e)
 
 ### iv)Access rows and columns
 ```python
@@ -84,6 +88,7 @@ cv2.imshow('part image',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipexp1-opimg1](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/0aa905ab-6625-491d-82c1-62790c866cc1)
 
 
 ### v)Cut and paste portion of image
@@ -97,6 +102,7 @@ cv2.imshow('partimage1',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipexp1-opimg2](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/9cfa2145-9356-4c69-a54e-2c960ac8b48a)
 
 ### vi) BGR and RGB to HSV and GRAY
 ```python
@@ -120,6 +126,8 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipexp1-opimg3](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/3d118788-e19c-4da0-86dd-310f660384eb)
+
 
 ### vii) HSV to RGB and BGR
 ```python
@@ -139,6 +147,7 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipexp1-opimg4](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/8ce4b83c-a632-482d-aa9b-0cc08250461d)
 
 ### viii) RGB and BGR to YCrCb
 ```python
@@ -156,6 +165,8 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipexp1-opimg5](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/37deb70f-bf9a-4d96-875c-7bbd55ef81ac)
+
 ### ix) Split and merge RGB Image
 ```python
 import cv2
@@ -176,6 +187,7 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipexp1-opimg6](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/8f5e492c-52cf-497b-bf66-57eabbc7938d)
 
 ### x) Split and merge HSV Image
 ```python
@@ -196,6 +208,7 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![dipexp1-opimg7](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/b7332852-7302-4204-bd09-c83c522702f4)
 
 
 

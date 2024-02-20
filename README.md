@@ -173,7 +173,7 @@ cv2.destroyAllWindows()
 ```python
 import cv2
 img = cv2.imread('dipimage.jpg',1)
-img = cv2.resize(img,(350,350))
+img = cv2.resize(img,(370,370))
 
 R = img[:,:,2]
 G = img[:,:,1]
@@ -195,7 +195,7 @@ cv2.destroyAllWindows()
 ```python
 import cv2
 img = cv2.imread("dipimage.jpg",1)
-img = cv2.resize(img,(350,350))
+img = cv2.resize(img,(370,370))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
 H,S,V=cv2.split(img)

@@ -41,21 +41,24 @@ Split and merge HSV Image
 
 
 ## Output:
-### Image:
-![dipimage](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/0a834a8c-71c5-497f-84f9-8a211f576293)
+
 ### i) Read and display the image
 ```Python
 import cv2
 image=cv2.imread('dipimage.jpg',1)
+cv2.imshow('Swetha',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+![dipimage](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/0a834a8c-71c5-497f-84f9-8a211f576293)
+### Resized Image
+```python
 image=cv2.resize(image,(350,350))
 cv2.imshow('Swetha',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![resized](https://github.com/swethamohanraj/COLOR_CONVERSIONS_OF-IMAGE/assets/94228215/960cb6e8-4391-45ee-96ed-056fc840941d)
-
-
-
 ### ii)Write the image
 
 ```python
